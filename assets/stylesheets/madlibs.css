@@ -1,0 +1,137 @@
+/* +css reset */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
+  License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 300;
+  line-height: 1;
+  background-color: rgba(255,255,255,0.6);
+  margin: 30px 175px;
+  width: 1200px;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* -css reset */
+
+/* +header */
+header {
+  margin-top: 100px;
+}
+
+h1 {
+  font-weight: 300;
+  font-size: 48px;
+  text-align: left;
+  white-space: nowrap;
+  margin-bottom: 24px;
+}
+/* -header */
+
+/* +body */
+#formCol {
+  background-color: #9ac166;
+  position: relative;
+  float: left;
+  line-height: 36px;
+  padding: 30px;
+  width: 260px;
+  font-weight: 500;
+}
+
+form input {
+  display: block;
+  margin: 0;
+  width: 250px;
+  height: 28px;
+  font-family: 'Exo 2', sans-serif;
+  font-size: 14px;
+  background-color: #dff2c6;
+  border: none;
+}
+
+input[type="text"]:focus {
+  outline: none;
+}
+
+#output {
+  float: left;
+  width: 750px;
+  display: none;
+}
+
+#myMsg {
+  width: 500px;
+  left: 316px;
+  background-color: #ffcc99;
+  top: 0px;
+  line-height: 24px;
+  padding: 30px;
+  height: 512px;
+  margin-bottom: -230px;
+}
+
+form input[type="reset"] {
+  background-color: #ffcc99;
+  width: 250px;
+  font-weight: 700;
+  border: 1px solid black;
+  margin-top: 30px;
+}
+
+form input[type="submit"]{
+  background-color: #ffcc99;
+  width: 250px;
+  font-weight: 700;
+  border: 1px solid black;
+  margin: 30px 0 30px 0;
+}
+
+em {
+  font-weight: 700;
+}
+
+#output img {
+  width: 560px;
+}
+/* -body */
