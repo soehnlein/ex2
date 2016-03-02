@@ -134,24 +134,4 @@ em {
 #output img {
   width: 560px;
 }
-
-footer {
-  text-align: left;
-  height: 24px;
-  padding: 24px 0;
-  clear: left;
-}
-
-footer a {
-  text-decoration: none;
-  color: black;
-}
-
-footer a:hover {
-  color: gray;
-}
-
-#htmlValid {
-  margin-right: 30px;
-}
 /* -body */
